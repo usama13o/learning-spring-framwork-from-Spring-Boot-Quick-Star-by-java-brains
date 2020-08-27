@@ -1,9 +1,11 @@
 package com.example.demo.topic;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-
+@Entity
 public class topic {
-
+    @Id
     private String id;
     private String name;
     private String description;
